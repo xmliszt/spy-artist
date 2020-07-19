@@ -1,17 +1,15 @@
 <template>
   <div class="home">
-    <ul>
-      <li>Create a new room</li>
-      <li>Enter a room</li>
-      <li>Help</li>
-    </ul>
+    <HomeButtonGroup />
   </div>
 </template>
 
 <script>
+import HomeButtonGroup from "@/components/HomeButtonGroup";
 export default {
   name: "Home",
   components: {
+    HomeButtonGroup
   }
 };
 </script>
