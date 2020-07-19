@@ -19,8 +19,9 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .title {
+  color: whitesmoke;
   font-size: 80px;
   font-weight: 700;
   font-variant: small-caps;
